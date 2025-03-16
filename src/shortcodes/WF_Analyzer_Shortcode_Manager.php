@@ -21,7 +21,7 @@ class WF_Analyzer_Shortcode_Manager {
      */
     public function __construct(WF_Analyzer_Scripts_Loader $scripts_loader) {
         $this->scripts_loader = $scripts_loader;
-        add_shortcode('wf_analyzer_form', [$this, 'render_main_form']);
+                add_shortcode('wf_analyzer_form', [$this, 'render_main_form']);
     }
 
 

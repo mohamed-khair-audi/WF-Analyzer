@@ -14,14 +14,10 @@ if (!defined('ABSPATH')) {
 
 require_once plugin_dir_path(__FILE__) . 'src/_src.php';
 
-
-
-
-
 require 'plugin-update-checker-4.11/plugin-update-checker.php';
 $updateChecker = Puc_v4_Factory::buildUpdateChecker(
-    'https://github.com/thekeytechnology/tk-sso',
+    'https://github.com/mohamed-khair-audi/WF-Analyzer.git',
     __FILE__,
-    'tk-sso'
+    'wf-analyzer'
 );
 $updateChecker->setBranch('master');
