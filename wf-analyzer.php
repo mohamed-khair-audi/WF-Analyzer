@@ -3,7 +3,7 @@
  * Plugin Name: WF Analyzer
  * Plugin URI: https://yourwebsite.com
  * Description: Ein Plugin zur Analyse von Webseiten mit GTmetrix, PDF-Generierung und E-Mail-Berichten.
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: Mohamed Audi
  * License: GPL2
  */
